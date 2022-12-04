@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 class="heading">Change Content</h3>
+    <p id="p1"></p>
+
+    <button onclick="showText()">show text</button>
+    <button onclick="showAlert()">Show alert</button>
+
+    <!-- inline js -->
+    <button onclick="this.innerHTML=Date()">Show Today's date</button>
+
+    <hr><hr>
+    <h3 class="heading">change Attribute</h3>
+
+    <img src="" alt="" id="img1">
+    <button onclick="showImg()">show image</button>
+    <img src="" alt="" id="img2" height="50%" width="50%">
+    <button onclick="showImg2()">show img2</button>
+    <hr><hr>
+
+<h3 class="heading">Change CSS</h3>
+    <p id="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi temporibus labore quisquam sapiente na</p>
+    <button onclick="changeCSS()">change css</button>
+
+<h3>Hide para</h3>
+    <p id="p3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, iure?</p>
+    <button onclick="hidePara()">hide para</button>
+
+    <button onclick="showPara()">show para</button>
+
+
+    <h3>Set Attribute method</h3>
+     
+    <img src="" alt="" id="img2">
+    <button onclick="setImg2()">Set Image Attribute method</button>
+
+    <h3>set innerHTML of one tag to another tag</h3>
+    <p id="p4">I am Front- End developer</p>
+    <p id="p5"></p>
+
+
+
+
+    
+    
+<script>
+        // document.getElementById("p1").innerHTML="hello Worlde!! <br> i am javascrtipt";
+    </script>
+    
+    <script src="index.js"></script> 
+</body>
+</html>
